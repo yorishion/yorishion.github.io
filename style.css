@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Carter+One|Yeseva+One&display=swap');
+@import local('C:\Users\Shwi\Desktop\ \MusekininKatakana-x34r.ttf');
 
 :root {
     --bg: #2B2F3D;
@@ -65,7 +65,7 @@ button.cardHover {
 
 #welcome-message {
     color: white;
-    font-family: 'Yeseva One';
+    font-family: 'musekinin-katakana';
     font-size: 50px;
     font-weight: bold;
     /* text-shadow: 4px 4px rgb(0, 0, 0, 0.3); */
