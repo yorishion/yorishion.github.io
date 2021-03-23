@@ -2,8 +2,8 @@
 //                                      FOR USER 
 // LEFT ----> RIGHT [] [] [] [] []
 //Social    
-const category1_titles = ['Dvach', 'Youtube', 'VK', 'Gmail'];
-const category1_links = [`https://2ch.hk/b`, `https://www.youtube.com`, `https://vk.com`, `https://mail.google.com/mail/u/0/#inbox`];
+const category1_titles = ['Dvach', 'Youtube', 'VK', 'Gmail', 'Guerrilla Mail'];
+const category1_links = [`https://2ch.hk/b`, `https://www.youtube.com`, `https://vk.com`, `https://mail.google.com/mail/u/0/#inbox`, `https://www.guerrillamail.com/inbox`];
 //Anime
 const category2_titles = ['Nekomori', 'Shikimori', 'Konachan', 'Wall Haven'];
 const category2_links = [`https://nekomori.ch`, `https://shikimori.one`, `https://konachan.net`, 'https://wallhaven.cc/search?q=id:5&ref=fp'];
