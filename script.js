@@ -19,7 +19,7 @@ const category5_links = [`https://gensokyoradio.net/music/playing/`, `https://ww
 //In order of left -> right
 const categories = ['ソーシャル','アニメ','お気に入り','プログラミング','音楽'];
                                                                           //Background Color
-const card_colors = ['#70B989','#7345C3','#410E1A', '#7A94AB', '#D79052', '#2B2F3D', '#f3f3f3'];
+const card_colors = ['#56977C','#7345C3','#410E1A', '#7A94AB', '#D79052', '#2B2F3D', '#f3f3f3'];
                                                                             //Dark  //Light
 //////////////////////////////////////////////////////////////////////////////////////////////
 
