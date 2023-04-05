@@ -9,7 +9,7 @@
     --suwako: #693273;
     --reimu: #AD5155;
     --marisa: #492736    ;
-    --koishi: #D79052;
+    --aya: #D79052;
 }
 
 * {
@@ -167,8 +167,8 @@ a:hover {
     background: var(--marisa);
 }
 
-#koishi {
-    background: var(--koishi);
+#aya {
+    background: var(--aya);
 }
 
 /* SETTINGS */
