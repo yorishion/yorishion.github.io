@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
 @import local('F:\ \BestTen-CRT.otf');
 
 :root {
@@ -21,7 +21,7 @@ body {
     background-color: var(--bg);
     background-size: contain;
     background-repeat: none;
-    font-family: 'Montserrat';
+    font-family: 'Kiwi Maru';
     display:  flex;
     align-items: center;
     justify-content: center;
