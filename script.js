@@ -25,10 +25,10 @@ const card_colors = ['#56977C','#7345C3','#410E1A', '#7A94AB', '#D79052', '#2B2F
 
 let root = document.documentElement;
 root.style.setProperty("--youmu", card_colors[0]);
-root.style.setProperty("--suwako", card_colors[1]);
+root.style.setProperty("--satori", card_colors[1]);
 root.style.setProperty("--reimu", card_colors[2]);
 root.style.setProperty("--marisa", card_colors[3]);
-root.style.setProperty("--koishi", card_colors[4]);
+root.style.setProperty("--aya", card_colors[4]);
 root.style.setProperty("--bg", card_colors[5]);
 
 let links = '';
@@ -159,7 +159,7 @@ let category2 = document.getElementById("category2");
 category2.onmouseenter = function() {
     document.getElementById('screen').style.background = card_colors[1];
     document.getElementById('screen').style.opacity = '.7';
-    blurImage('suwako-img');
+    blurImage('satori-img');
     showLinks(category2_titles,category2_links);
     this.innerHTML = links;
 };
@@ -168,7 +168,7 @@ category2.onmouseleave = function() {
     document.getElementById('screen').style.opacity = '0';
     document.body.style.background = current_bg;
     document.body.style.backgroundSize = `cover`;
-    unblurImage('suwako-img');
+    unblurImage('satori-img');
     showTitles();
 }
 
@@ -210,7 +210,7 @@ let category5 = document.getElementById("category5");
 category5.onmouseenter = function() {
     document.getElementById('screen').style.background = card_colors[4];
     document.getElementById('screen').style.opacity = '.7';
-    blurImage('koishi-img');
+    blurImage('aya-img');
     showLinks(category5_titles,category5_links);
     this.innerHTML = links;
 };
@@ -219,7 +219,7 @@ category5.onmouseleave = function() {
     document.getElementById('screen').style.opacity = '0';
     document.body.style.background = current_bg;
     document.body.style.backgroundSize = `cover`;
-    unblurImage('koishi-img');
+    unblurImage('aya-img');
     showTitles();
 }
 
