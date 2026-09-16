@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
-@import local('F:\ \BestTen-CRT.otf');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 
 :root {
     --bg: #2B2F3D;
@@ -21,7 +20,7 @@ body {
     background-color: var(--bg);
     background-size: contain;
     background-repeat: none;
-    font-family: 'Kiwi Maru';
+    font-family: 'Mochiy Pop';
     display:  flex;
     align-items: center;
     justify-content: center;
@@ -43,7 +42,7 @@ button {
     background-color: transparent;
     border: none;
     color: rgba(255,255,255,1);
-    padding: 16px 32px;
+    padding: 20px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -65,9 +64,9 @@ button.cardHover {
 
 #welcome-message {
     color: white;
-    font-family: 'BestTen-CRT';
+    font-family: 'Mochiy Pop';
     font-size: 50px;
-    font-weight: bold;
+    font-weight: regular;
     /* text-shadow: 4px 4px rgb(0, 0, 0, 0.3); */
 }
 
